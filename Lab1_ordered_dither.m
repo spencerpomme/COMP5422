@@ -1,6 +1,6 @@
-img = imread('G:\ѧϰ&����\PolyU\Courses\_COMP5422\polyu', 'bmp');
+img = imread('G:\Ñ§Ï°&¹¤×÷\PolyU\Courses\_COMP5422\polyu', 'bmp');
 
-D = [8,8,2,10;12,4,16,6;3,11,1,9;15,7,13,5];
+D = [0,8,2,10;12,4,16,6;3,11,1,9;15,7,13,5];
 [rd, rc] = size(D);
 range = linspace(0,255,rd * rc);
 
