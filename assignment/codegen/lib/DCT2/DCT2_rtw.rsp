@@ -1,0 +1,6 @@
+DCT2.obj
+DCT2_initialize.obj
+DCT2_terminate.obj
+rtGetInf.obj
+rtGetNaN.obj
+rt_nonfinite.obj
