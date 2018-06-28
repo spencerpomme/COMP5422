@@ -1,5 +1,6 @@
-img = imread('G:\Ñ§Ï°&¹¤×÷\PolyU\Courses\_COMP5422\polyu', 'bmp');
-
+img = imread('C:\Users\spencer\Pictures\Camera Roll\C1A-GJqVEAA7sRb', 'jpg');
+imshow(img);
+img = rgb2gray(img);
 D = [0,8,2,10;12,4,16,6;3,11,1,9;15,7,13,5];
 [rd, rc] = size(D);
 range = linspace(0,255,rd * rc);
@@ -19,5 +20,6 @@ for x = 1:row
         end
     end
 end
+figure(2);
 imshow(res);
         
