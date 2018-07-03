@@ -11,9 +11,7 @@ function z = DCT2(origin)
             coef = 2 * C(u-1) * C(v-1) / sqrt(M * N);
             for i = 0:M-1
                 for j = 0:N-1
-                    cosu = cos((2*i+1)*(u-1)*pi/6.0);
-                    cosv = cos((2*j+1)*(v-1)*pi/6.0);
-                    sum = sum + cosu * cosv * origin(i+1, j+1);
+                    sum = sum + cos((2*i+1)*(u-1)*pi/6.0) * cos((2*j+1)*(v-1)*pi/6.0) * origin(i+1, j+1);
                 end
             end
             sum = coef * sum;
